@@ -1,0 +1,28 @@
+*{
+    background: orange;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.child{
+    margin-top: 10px;
+}
+
+button{
+    background: rgb(20, 141, 240);
+    color: blue;
+}
