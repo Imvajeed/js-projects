@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body> 
+    <div class="main" id="main">
+        <div class="head" id="head">
+            <h3>BMI calculator</h3>
+        </div>
+        <div class="body" id="body">
+            <div class="bodyChild">
+                <label for="input-W" id="output-w">40Kg</label>
+            <input type="range" name="input-W" class="input-r" id="input-W" min="40" max="200" step="1">
+            </div>
+            <div class="bodyChild">
+                <label for="input-H" id="output-h">40cm</label>
+            <input type="range" name="input-H" class="input-r" id="input-H" min="40" max="200" step="1">
+            </div>
+        </div>
+        <div class="result" id="result">
+            <button id="rstBtn">BMI:0</button>
+        </div>
+    </div>
+    
+</body>
+<script src="script/script.js"></script>
+</html>

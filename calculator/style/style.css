@@ -1,0 +1,53 @@
+.head{
+    border: 2px solid black;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.layout{
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+
+}
+
+.row{
+    display: flex;
+}
+
+.btns{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    margin: 5px;
+    box-shadow: 5px 5px 5px 5px;
+
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
+
+.layoutChilds{
+    margin-top: 10px;
+}
+
+#resultInput{
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
