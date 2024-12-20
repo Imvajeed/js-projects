@@ -121,3 +121,22 @@
 .hide{
     display: none;
 }
+
+.logOut{
+    display: flex;
+    align-items: center;
+}
+
+#logOutBtn{
+    background-color: blue;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+
+#logOutBtn:hover{
+    cursor: pointer;
+}

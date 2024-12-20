@@ -1,0 +1,35 @@
+#logOutBtn{
+    background-color: blue;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+
+#logOutBtn:hover{
+    cursor: pointer;
+}
+
+.mainBox{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 20px 0 rgb(1, 0, 1,0.5),
+    0 5px 20px 0 rgb(1, 0, 1,0.5);
+}
+#dp-img{
+    height: 100px;
+
+}
+.dpimg{
+    border-radius: 50%;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 20px 0 rgb(1, 0, 1,0.5),
+    0 5px 20px 0 rgb(1, 0, 1,0.5);
+}
